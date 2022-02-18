@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!--  <script src="/socket.io.js"></script> -->
+  <script src="/js/recorder.js"></script>
+  <link rel="stylesheet" href="/css/reset.css">
+  <script src="https://webapi.amap.com/maps?v=1.4.8&key=3cb5838683de37cca0d00bdcd3d4c6ad"></script>
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=G2KVCcxS91G0ZZ5XiUZxgP3pXaQy2g8v"></script>
+
+  <!-- <script src="https://webapi.amap.com/maps?v=1.4.8&key=3cb5838683de37cca0d00bdcd3d4c6ad"></script> -->
+  <!-- 引入vue-router -->
+  <script src="https://cdn.staticfile.org/vue-router/3.0.1/vue-router.min.js"></script>
+
+  <!-- 引入axios -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+  <!-- 引入vuex -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/vuex/3.0.1/vuex.min.js"></script>
+
+  <!-- 引入 Vue 和 Vant 的 JS 文件 -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6/dist/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vant@2.12.21/lib/vant.min.js"></script>
+  <!-- 引入Vant Css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vant@2.12/lib/index.css" />
+
+  
+    <!-- 引入core-js -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/core-js/3.6.5/minified.min.js"></script>
+
+  <script>
+    document.addEventListener('gesturestart',function(e){
+      e.preventDefault()
+    })
+  </script>
+</body>
