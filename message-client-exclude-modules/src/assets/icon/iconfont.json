@@ -1,0 +1,44 @@
+{
+  "id": "2606434",
+  "name": "tj",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon-tj-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10032960",
+      "name": "在线上传",
+      "font_class": "zaixianshangchuan",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "12619969",
+      "name": "交易",
+      "font_class": "icon_A",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "14600833",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "20928640",
+      "name": "采购订单",
+      "font_class": "caigoudingdan",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "19299499",
+      "name": "语音",
+      "font_class": "yuyin",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    }
+  ]
+}
